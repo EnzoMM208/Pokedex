@@ -3,7 +3,7 @@ const getUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 const catchPokemons = () => {
 
     const pokebolas = [] 
-    const maximoPokemons = 30
+    const maximoPokemons = 150
 
 
     for (let index = 1; index <= maximoPokemons; index++) {
